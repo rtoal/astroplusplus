@@ -1,1 +1,3 @@
-console.log("Hello from astropp.js")
+import parse from "./parser.js"
+
+console.log(parse("print 1;"))
